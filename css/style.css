@@ -131,10 +131,6 @@ p {
 	color: #fff;
 }
 
-table tr{
-	border: 1px solid #000;
-}
-
 #tabelaFuncionarios tr td{
 	padding: 20px 20px;
 	background-color: #ddd;
