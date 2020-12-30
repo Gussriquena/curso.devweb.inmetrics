@@ -1,0 +1,168 @@
+
+/* resetando configurações de margem da página */
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	/* tamanho da fonte, padrão: 16px */
+	font-size: 25px;
+	
+	/* alinhamento, left, right, center, justify */
+	text-align: left;
+	
+	/* lowercase, uppercase, capitalize */
+	text-transform: lowercase;
+	
+	/* margem inicio parágrafo */
+	text-indent: 30px;
+	
+	/* espaçamento entre linhas */
+	line-height: 35px;
+	
+	/* direção do texto, left to right, right to left */
+	direction: ltr;
+	
+	/* espaçamento entre letras e palavras */
+	letter-spacing: 0px;
+	word-spacing: 20px;
+	
+	/* mais utilizados */
+	
+	/* overline, line-through, underline, none */
+	text-decoration: none;
+	
+	/* horizontal position, vertical position, blur, color */
+	text-shadow: 2px 1px 2px #ACAFC3;
+	
+	/* estilo da fonte: italic, normal, oblique */
+	font-style: normal;
+	
+	/* negrito, normal, bold, 100 > 900 */
+	font-weight: 500;
+	
+	/* normal, small-caps */
+	font-variant: normal;
+	
+	/* mudar o tipo da fonte, serif, sans-serif, monospace */
+	font-family: "Modak", cursive;
+	
+	/* style, variant, weigth, size/line-height, family */
+	font: normal normal 300 20px/25px "Poppins";
+}
+
+/* padding: top right bottom left; */
+.espacamento{
+	padding: 100px;
+	margin: 0;
+} 
+
+/* rgba(red, green, blue, alpha) 0 - 255 */
+/* opacity - visibilidade - 0 > 1*/
+#paragrafoBackgroundColor{
+	background-color: rgba(130, 194, 163, 1);
+	opacity: 1;
+}
+
+/* background image: url da imagem */
+/* background-repeat: permite repetição caso a imagem seja pequena */
+/* background-attachment: fixed; */
+/* background-size: cover; */
+#divBackgroundImage{
+	color: #fff;
+	background: url('https://i.redd.it/vy8o278v44w51.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*  backdrop-filter: blur (px), brightness, contrast, 
+	grayscale, hue-rotate(10deg), invert, sepia, saturate; */
+#paragrafoBackgroundTransparent{
+	color: #fff;
+	background: linear-gradient(to right, rgba(106,58,190,0.3), rgba(72,164,186, 0.3));
+	padding: 100px;
+	backdrop-filter: blur(5px);
+}
+
+
+/* angulos: to top, to bottom, to left, to right - to bottom right, to top right */
+#paragrafoBackgroundGradient{
+	background: linear-gradient(to bottom right, rgba(106,58,190,1), rgba(72,164,186,1));
+}
+
+#divBordas{
+	margin: 50px 250px;
+}
+
+/* border-width: top right bottom left; */
+/* border-style: solid, dotted, dashed, double, groove, ridge, inset, outset, none */
+/* border-color: #000 */
+/* (shorthand) border: width style color */
+/* border-radius: px %; top right bottom left*/
+#divBordas div.bordas{
+	padding: 30px;
+	border: 5px solid #45385e;
+	border-radius: 10px;
+}
+
+/* box-shadow: horizontal vertical blur color; */
+#divBordas div.sombras{
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px #bfbcc4;
+}
+
+
+/* tabela */
+#tabelaFuncionarios {
+	margin-top: 50px;
+	font-family: 'Poppins';
+	width: 100%;
+	border: none;
+	text-align: center;
+}
+
+#tabelaFuncionarios th{
+	padding: 20px;
+	background: #333057;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+table tr{
+	border: 1px solid #000;
+}
+
+#tabelaFuncionarios tr td{
+	padding: 20px 20px;
+	background-color: #ddd;
+}
+
+.tableButton{
+	text-decoration: none;
+	color: #333;
+	background-color: #eee;
+	padding: 10px 20px;
+	margin: 2px;
+	border-radius: 5px;
+}
+
+/* :hover - passar o mouse sobre o elemento */
+/* transition -  */
+.tableButton:hover{
+	cursor: pointer;
+	color: #eee;
+	background-color: #333;
+	transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
