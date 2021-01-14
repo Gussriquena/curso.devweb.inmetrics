@@ -173,6 +173,7 @@ p {
 	margin-top: -36px;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 
 .listaMenuExemplo{
@@ -239,8 +240,121 @@ p {
 }
 
 
+/* ESTILIZANDO FORMULARIOS */
 
+.formularioContato{
+	font-family: 'Poppins';
+	font-size: 1.3em;
+	background-color: #fff;
+	padding: 25px 40px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 20px #eee;
+}
 
+.formularioContato form{
+	margin-bottom: 20px;
+}
+
+.formularioContato h2{
+	text-align: left;
+}
+
+.formularioContato form span{
+	color: #db8888;
+}
+
+.inputTextField{
+	font-size: 1em;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 3px solid #45385e;
+	margin-left: 20px;
+	width: 30%;
+}
+
+#txtPhone, #txtPassword{
+	font-size: 1em;
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	margin-left: 20px;
+	padding: 10px 20px;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+#txtPassword{
+	background-color: #8da3c4;
+	color: #fff;
+	border: 1px solid #13243d;
+}
+
+#txtPassword::placeholder{
+	color: #fff;
+}
+
+#txtPassword:focus{
+	outline: none;
+}
+
+#txtPhone:focus{
+	outline: none;
+	border: 1px solid #547fbf;
+	transition: all .5s;
+}
+
+.inputTextField::placeholder{
+	color: #aaa;
+}
+
+.inputTextField:focus{
+	outline: none;
+	border-color: #8799b0;
+	transition: all .5s;
+}
+
+.inputTextField:hover{
+	cursor: pointer;
+}
+
+.btnFormulario{
+	font-size: 0.8em;
+	border: none;
+	padding: 15px 35px;
+	border-radius: 8px;
+	color: #fff;
+	text-align: right;
+	font-weight: bold; 
+}
+
+.btnFormulario i{
+	margin-right: 10px;
+}
+
+.btnFormulario:focus{
+	outline: none;
+}
+
+.btnFormulario:hover{
+	cursor: pointer;
+}
+
+#btnEnviar{
+	background: linear-gradient(238deg, rgba(76,48,93,1), rgba(63,113,150,1));
+}
+
+#btnEnviar:hover{
+	background: linear-gradient(238deg, rgba(139,78,163,1), rgba(31,96,107,1));
+	transition: all .5s;
+}
+
+#btnCancelar{
+	background: linear-gradient(238deg, rgba(182,53,53,1), rgba(107,31,99,1));
+}
+
+#btnCancelar:hover{
+	background: linear-gradient(238deg, rgba(163,78,78,1), rgba(36,31,107,1));
+}
 
 
 
